@@ -5,6 +5,7 @@ import sys
 #Max size of lists in P3 is 536870912
 #num_max - num_min must be less than that
 num_min = 0 #Number to start checking from
+num_max = 10 ** 5 #Max number to check up to
 
 thread_count = 4 #Should be an even number bigger than 1
 
