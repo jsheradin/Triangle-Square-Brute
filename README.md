@@ -1,4 +1,4 @@
-# Triangle-Square-Brute
+# Triangle_Square_Brute
 
 ### About
 This is a brute force solution to find triangle-square numbers in a given range. It calculates all triangle numbers, all square numbers, and then finds the ones in common.
