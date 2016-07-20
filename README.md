@@ -30,7 +30,7 @@ Current configuration found these numbers in about 30 seconds:
 ## [triangle_square_solved.py](https://github.com/jsheradin/triangle_squares/blob/master/triangle_square_solved.py)
 
 ### Method:
-* Using algebraic solution found by somebody smarter than myself, calculate the numbers
+* Using [algebraic solution found by somebody smarter than myself](https://oeis.org/A001110), calculate the numbers
 
 ### Program
 Runs pretty much immediately, the limiting factor is Python's max number size. I may change it over to a giant library in the future.
