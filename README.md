@@ -8,7 +8,9 @@ Square numbers (duh):
 f(x)=x*x
 
 Triangle numbers:
+
 ![screenshot](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/First_six_triangular_numbers.svg/220px-First_six_triangular_numbers.svg.png)
+
 ![screenshot](https://wikimedia.org/api/rest_v1/media/math/render/svg/25483dd341ee5ef3b10a6594c60d7366d4dffe8b)
 
 ## triangle_square_brute.py
