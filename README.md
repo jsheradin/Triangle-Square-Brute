@@ -1,7 +1,7 @@
 # triangle_squares
 
 ### About
-This is in response to [Puzzle: Is 36 the only triangle-square number?](https://www.youtube.com/watch?v=Gh8h8MJFFdI).
+This is in response to [Puzzle: Is 36 the only triangle-square number?](https://www.youtube.com/watch?v=Gh8h8MJFFdI)
 
 ### Math
 Square numbers (duh):
@@ -35,3 +35,8 @@ Runs pretty much immediately, the limiting factor is Python's max number size. I
 
 ### Results
 [triangle_squares.txt](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares.txt)
+
+## triangle_square_graph_gen.py
+This uses matplotlib, so have that installed to run it.
+
+![screenshot](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares_graph.png?raw=true)
