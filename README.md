@@ -1,10 +1,13 @@
 # triangle_squares
 
 ### About
-This is in response to [Puzzle: Is 36 the only triangle-square number?](https://www.youtube.com/watch?v=Gh8h8MJFFdI)
+This is in response to [Puzzle: Is 36 the only triangle-square number?](https://www.youtube.com/watch?v=Gh8h8MJFFdI) It was also just fun to make.
+
+Everything made and tested in Python 3.5.2, use at your own risk.
 
 ### Math
 Square numbers (duh):
+
 f(x)=x*x
 
 Triangle numbers:
@@ -21,7 +24,7 @@ Triangle numbers:
 * Find the ones in common
 
 ### Program
-Tested in Python 3.5.2 but should run in any Python 3 version. The program features basic multithreading as set by thread_count. It isn't very CPU intensive but it eats RAM like crazy.
+The program features basic multithreading as set by thread_count. It isn't very CPU intensive but it eats RAM like crazy.
 
 ### Results
 Current configuration found these numbers in about 30 seconds:
@@ -36,9 +39,14 @@ Current configuration found these numbers in about 30 seconds:
 Runs pretty much immediately, the limiting factor is Python's max number size. I may change it over to a giant library in the future.
 
 ### Results
-[triangle_squares.txt](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares.txt)
+[The first 200 triangle-squares.](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares.txt) Floating point accuracy is likely a limit and may cause inaccuracies in the larger numbers.
 
 ## [triangle_square_graph_gen.py](https://github.com/jsheradin/triangle_squares/blob/master/triangle_square_graph_gen.py)
-This uses matplotlib, so have that installed to run it.
+Dependencies:
+* Matplotlib
 
-![screenshot](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares_graph.png?raw=true)
+### Results
+
+![screenshot](https://raw.githubusercontent.com/jsheradin/triangle_squares/master/triangle_squares_graph_occurrence.png)
+
+![screenshot](https://raw.githubusercontent.com/jsheradin/triangle_squares/master/triangle_squares_graph_terminating_digit.png)
