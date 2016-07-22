@@ -2,7 +2,11 @@
 import matplotlib.pyplot as plt
 
 #Load numbers from triangle_squares.txt
-nums = [line.rstrip('\n') for line in open("triangle_squares.txt", "r")]
+nums_file = open("triangle_squares.txt", "r")
+nums = nums_file.read().split(',')
+nums = nums[1:]
+nums = nums[:-1]
+
 nums = list(map(int, nums))
 
 #Find last digit of numbers

@@ -1,14 +1,10 @@
 #Algebraic solution to generate triangle-square numbers
+print("Starting calculation... ", end="")
+nums = [0, 1]
+for n in range(2, 10000):
+    nums.append(34*nums[n-1] - nums[n-2] + 2)
 
-nums = []
-a = (1 + (2**0.5))
-b = (1 - (2**0.5))
-c = (4 * (2**0.5))
-for n in range(0, 200):
-    #Math used from https://oeis.org/A001110
-    two_n = 2*n
-    nums.append(round(((a**two_n - b**two_n)/c)**2))
+print("done\nStarting write to disk... ", end="")
 with open("triangle_squares.txt", "w") as save_file:
-    for item in nums:
-        save_file.write("%s\n" % item)
+    save_file.write(str(nums))
 print("done")

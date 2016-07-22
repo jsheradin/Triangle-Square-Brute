@@ -33,15 +33,16 @@ Current configuration found these numbers in about 30 seconds:
 ## [triangle_square_solved.py](https://github.com/jsheradin/triangle_squares/blob/master/triangle_square_solved.py)
 
 ### Method:
-* Using [algebraic solution found by somebody smarter than myself](https://oeis.org/A001110), calculate the numbers
+* Using ![screenshot](https://wikimedia.org/api/rest_v1/media/math/render/svg/ca7e8212d48865d696c7bdabf9c28508d3df67b0) with ![screenshot](https://wikimedia.org/api/rest_v1/media/math/render/svg/a60c168417a797edeccbb2990524bf29c0bd0acc) and ![screenshot](https://wikimedia.org/api/rest_v1/media/math/render/svg/769837e6f47fab8d3a05dad584fd3503a31c3565) calculate numbers
 
 ### Program
-Runs pretty much immediately, the limiting factor is Python's max number size. I may change it over to a giant library in the future.
+It is not multithreaded as the algebra relies on recursion. RAM and CPU usage is moderate with the longest operation being str(nums) to write the numbers to file.
 
 ### Results
-[The first 200 triangle-squares.](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares.txt) Floating point accuracy is likely a limit and may cause inaccuracies in the larger numbers.
+[The first 10000 triangle squares (really big file use caution opening)](https://github.com/jsheradin/triangle_squares/blob/master/triangle_squares.txt)
 
 ## [triangle_square_graph_gen.py](https://github.com/jsheradin/triangle_squares/blob/master/triangle_square_graph_gen.py)
+
 Dependencies:
 * Matplotlib
 
