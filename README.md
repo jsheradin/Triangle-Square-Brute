@@ -51,3 +51,15 @@ Dependencies:
 ![screenshot](https://raw.githubusercontent.com/jsheradin/triangle_squares/master/triangle_squares_graph_occurrence.png)
 
 ![screenshot](https://raw.githubusercontent.com/jsheradin/triangle_squares/master/triangle_squares_graph_terminating_digit.png)
+
+## [triangle_square_fetch_from_file.py](https://github.com/jsheradin/triangle_squares/blob/master/triangle_square_fetch_from_file.py)
+
+### Program
+
+Fetch numbers from the massive files that triangle_square_solved.py can spit out. Uses twice the RAM as the size of triangle_squares.txt
+
+### Results
+
+The [one-hundred-thousandth triangle-square](https://github.com/jsheradin/triangle_squares/blob/master/hundred_thousandth_triangle_square.txt) (if 0 is 0, 1 is 1, 36 is 2, etc.) pulled from the output of a tweaked triangle_square_solved.py.
+
+The full output file is >7GB and can't be uploaded to GitHub due to file size limits.
