@@ -60,6 +60,6 @@ Fetch numbers from the massive files that triangle_square_solved.py can spit out
 
 ### Results
 
-The [one-hundred-thousandth triangle-square](https://github.com/jsheradin/triangle_squares/blob/master/hundred_thousandth_triangle_square.txt) (if 0 is 0th, 1 is 1st, 36 is 2nd, etc.) pulled from the output of a tweaked triangle_square_solved.py.
+The [one-hundred-thousandth triangle-square](https://github.com/jsheradin/triangle_squares/blob/master/hundred_thousandth_triangle_square.txt) (if 0 is 1st, 1 is 2nd, 36 is 3rd, etc.) pulled from the output of a tweaked triangle_square_solved.py.
 
 The full output file is >7GB and can't be uploaded to GitHub due to file size limits.
